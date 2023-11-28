@@ -9,5 +9,5 @@ let seatSchema=new mongoose.Schema(
     }
 );
 
-let BusSeat = mongoose.model("recipe", seatSchema);
+let BusSeat = mongoose.model("busseat", seatSchema);
 export { BusSeat };
